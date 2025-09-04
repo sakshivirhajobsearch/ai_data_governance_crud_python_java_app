@@ -5,6 +5,7 @@
 	<groupId>ai.data.governance</groupId>
 	<artifactId>ai_data_governance_crud_python_java_app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<name>AI Data Governance Backend</name>
 	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
