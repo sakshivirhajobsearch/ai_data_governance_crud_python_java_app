@@ -6,7 +6,7 @@
 	<artifactId>ai_data_governance_crud_python_java_app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>AI Data Governance Backend</name>
-	
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -32,6 +32,15 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+		<!-- Optional: H2 for testing -->
+		<!--
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        -->
 	</dependencies>
 
 	<build>
