@@ -1,4 +1,4 @@
-package ai.data.governance.controller;
+package com.ai.data.governance.controller;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ai.data.governance.model.DataEntity;
-import ai.data.governance.repository.DataRepository;
+import com.ai.data.governance.model.DataEntity;
+import com.ai.data.governance.repository.DataRepository;
 
 @RestController
 @RequestMapping("/api/data")

@@ -1,4 +1,4 @@
-package ai.data.governance.exception;
+package com.ai.data.governance.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

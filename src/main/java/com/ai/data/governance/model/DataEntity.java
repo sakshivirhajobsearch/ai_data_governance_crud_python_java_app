@@ -1,4 +1,4 @@
-package ai.data.governance.model;
+package com.ai.data.governance.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

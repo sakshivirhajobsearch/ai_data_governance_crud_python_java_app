@@ -1,4 +1,4 @@
-package ai.data.governance.service;
+package com.ai.data.governance.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import ai.data.governance.model.DataEntity;
-import ai.data.governance.repository.DataRepository;
+import com.ai.data.governance.model.DataEntity;
+import com.ai.data.governance.repository.DataRepository;
 
 @Service
 public class DataService {
